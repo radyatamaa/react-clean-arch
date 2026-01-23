@@ -10,7 +10,7 @@ export function Auth() {
     const [loading,setLoading] = useState(false)
 
     const {user , authenticate} = useAuthenticate()
-    if (!user) return <Navigate to="/" replace />;
+    if (user) return <Navigate to="/" replace />;
     
     async function handleSubmit(e : React.FormEvent) {
         setLoading(true);
