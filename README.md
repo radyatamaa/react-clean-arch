@@ -1,6 +1,6 @@
 > Other languages: [Russian](https://github.com/bespoyasov/frontend-clean-architecture/blob/master/docs/ru.md).
 
-# Frontend Clean Architecture
+# React Clean Architecture
 
 A React + TypeScript example app built using the clean architecture in a functional(-ish) way.
 
